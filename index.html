@@ -1,17 +1,29 @@
 <html>
-  <head>
-    <title>Машевський про веб дизайн</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <section>
+<head>
+  <title>Машевський про веб дизайн</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <section class="welcome">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="video/intro.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <h1 class="content">Коротко про вебдизайн</h1>
+  </section>
+  <section>
     <div class="container">
       <div class="image_container">
         <img src="img/html.png" alt="HTML" />
       </div>
       <h2>HTML</h2>
-      <p>…</p>
+      <p>
+        HTML (англ. HyperText Markup Language — мова розмітки гіпертексту) — стандартизована мова розмітки документів
+        для перегляду вебсторінок у браузері. Браузери отримують HTML документ від сервера за протоколами HTTP/HTTPS або
+        відкривають з локального диска, далі інтерпретують код в інтерфейс, який відображатиметься на екрані монітора.
+      </p>
       <a href="https://uk.wikipedia.org/wiki/HTML" class="more_info">Детальніше</a>
     </div>
 
@@ -21,6 +33,8 @@
       </div>
       <h2>CSS</h2>
       <p>
+        CSS (англ. Cascading Style Sheets, укр. Каскадні таблиці стилів) — це спеціальна мова стилю сторінок[en], що
+        використовується для опису їхнього зовнішнього вигляду. Самі ж сторінки написані мовами розмітки даних.
       </p>
       <a href="https://uk.wikipedia.org/wiki/CSS" class="more_info">Детальніше</a>
     </div>
@@ -30,26 +44,62 @@
         <img src="img/js-format.png" alt="JS" />
       </div>
       <h2>JS</h2>
-      <p>…</p>
+      <p>
+        JavaScript (JS) — динамічна, об'єктно-орієнтована[5] прототипна мова програмування. Реалізація стандарту
+        ECMAScript. Найчастіше використовується для створення сценаріїв вебсторінок, що надає можливість на боці клієнта
+        (пристрої кінцевого користувача) взаємодіяти з користувачем, керувати браузером, асинхронно обмінюватися даними
+        з сервером, змінювати структуру та зовнішній вигляд вебсторінки.
+      </p>
       <a href="https://uk.wikipedia.org/wiki/JavaScript" class="more_info">Детальніше</a>
     </div>
   </section>
 
   <section class="tags">
     <h2>Теги</h2>
+
     <div class="tag-container">
       <div class="tag-title">html</div>
       <div class="tag-description">є кореневим елементом HTML-сторінки</div>
     </div>
+
     <div class="tag-container">
       <div class="tag-title">head</div>
       <div class="tag-description">
         містить метаінформацію про HTML-сторінку
       </div>
     </div>
+
+
     <div class="tag-container">
-      
+      <div class="tag-title">body</div>
+      <div class="tag-description">
+        призначений для зберігання тіла веб-сторінки (його контенту), що відображається у вікні браузера.
+      </div>
     </div>
-  
-  </body>
+
+
+    <div class="tag-container">
+      <div class="tag-title">title</div>
+      <div class="tag-description">
+        відображає у заголовку браузера ім'я поточного html-документа.
+      </div>
+    </div>
+    <div class="tag-container">
+      <div class="tag-title">link</div>
+      <div class="tag-description">
+        використовується для підключення зовнішніх ресурсів, зокрема стилів CSS, до веб-сторінки.
+      </div>
+    </div>
+    <div class="tag-container">
+      <div class="tag-title">div</div>
+      <div class="tag-description">
+        блоковий тег в мові розмітки html. Дозволяє виділити в структурі документа кілька розділів.
+      </div>
+    </div>
+    <div class="tag-container">
+    </div>
+
+
+</body>
+
 </html>
