@@ -6,14 +6,16 @@
 </head>
 
 <body>
-  <section class="welcome">
+  <section class="welcome" id="welcome">
     <video autoplay muted loop playsinline class="background-video">
       <source src="video/intro.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
     <h1 class="content">Коротко про вебдизайн</h1>
   </section>
-  <section>
+
+  <section id="names">
+  
     <div class="container">
       <div class="image_container">
         <img src="img/html.png" alt="HTML" />
@@ -25,6 +27,7 @@
         відкривають з локального диска, далі інтерпретують код в інтерфейс, який відображатиметься на екрані монітора.
       </p>
       <a href="https://uk.wikipedia.org/wiki/HTML" class="more_info">Детальніше</a>
+      
     </div>
 
     <div class="container">
@@ -54,18 +57,20 @@
     </div>
   </section>
 
-  <section class="tags">
+  <section class="tags" id="tags">
     <h2>Теги</h2>
 
     <div class="tag-container">
       <div class="tag-title">html</div>
-      <div class="tag-description">є кореневим елементом HTML-сторінки</div>
+      <div class="tag-description">
+        є кореневим елементом HTML-сторінки.
+      </div>
     </div>
 
     <div class="tag-container">
       <div class="tag-title">head</div>
       <div class="tag-description">
-        містить метаінформацію про HTML-сторінку
+        містить метаінформацію про HTML-сторінку.
       </div>
     </div>
 
@@ -96,8 +101,79 @@
         блоковий тег в мові розмітки html. Дозволяє виділити в структурі документа кілька розділів.
       </div>
     </div>
+       <div class="tag-container">
+      <div class="tag-title">h1</div>
+      <div class="tag-description">
+        Головний заголовок сайту.
+      </div>
+    </div>
+       <div class="tag-container">
+      <div class="tag-title">h6</div>
+      <div class="tag-description">
+        Останній з доступних заголовків сайту.
+      </div>
+    </div>
+       <div class="tag-container">
+      <div class="tag-title">p</div>
+      <div class="tag-description">
+        Визначає абзац тексту.
+      </div>
+    </div>
+       <div class="tag-container">
+      <div class="tag-title">ul</div>
+      <div class="tag-description">
+        Несортований список.
+      </div>
+    </div>
+       <div class="tag-container">
+      <div class="tag-title">ol</div>
+      <div class="tag-description">
+        Сортований(нумерований) список.
+      </div>
+    </div>
     <div class="tag-container">
     </div>
+    
+    <footer id="contacts">
+  <div class="footer-main">
+    <div class="footer-block">
+      <h3>Навігація</h3>
+      <ul>
+        <li><a href="#welcome">Вітальне відео</a></li>
+        <li><a href="#names">Технології вебдизайну</a></li>
+        <li><a href="#tags">Пояснення тегів</a></li>
+      </ul>
+    </div>
+    <div class="footer-block">
+      <h3>Про сайт</h3>
+      <p>
+        Сайт створено для ознайомлення з основами вебдизайну, HTML, CSS та JavaScript.<br>
+        Матеріали можна копіювати та використовувати без дозволу автора.
+      </p>
+    </div>
+    <div class="footer-block">
+      <h3>Контакти</h3>
+      <ul>
+        <li>Машевський</li>
+        <li><a href="24v_mvo@liceum.ztu.edu.ua" target="_blank">24v_mvo@liceum.ztu.edu.ua</a></li>
+        <li><a href="https://github.com/Mashevskyy/about-web-design" target="_blank">GitHub ⭐</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <b>Машевський Валентин</b> | Сайт "Коротко про вебдизайн"</p>
+  </div>
+</footer>
+<nav class="main-nav">
+  <div class="nav-logo">Вебдизайн</div>
+  <ul class="nav-links">
+    <li><a href="#welcome">Вітальне відео</a></li>
+    <li><a href="#names">Технології</a></li>
+    <li><a href="#tags">Теги</a></li>
+    <li><a href="#contacts">Контакти</a></li>
+  </ul>
+</nav>
+
 
 
 </body>
